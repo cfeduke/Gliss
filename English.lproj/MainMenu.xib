@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="372"/>
+			<integer value="371"/>
 			<integer value="29"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
@@ -1313,7 +1313,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{335, 390}, {443, 360}}</string>
+				<string key="NSWindowRect">{{335, 387}, {443, 363}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">Gliss</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -1324,64 +1324,66 @@
 					<int key="NSvFlags">256</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSOpenGLView" id="774612827">
+						<object class="NSOpenGLView" id="1058661438">
 							<reference key="NSNextResponder" ref="439893737"/>
-							<int key="NSvFlags">1292</int>
+							<int key="NSvFlags">1302</int>
 							<object class="NSPSMatrix" key="NSDrawMatrix"/>
-							<string key="NSFrame">{{20, 20}, {335, 320}}</string>
+							<string key="NSFrame">{{20, 23}, {335, 320}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<object class="NSOpenGLPixelFormat" key="NSPixelFormat">
 								<object class="NSMutableData" key="NSPixelAttributes">
-									<bytes key="NS.bytes">AAAAYAAAAAA</bytes>
+									<bytes key="NS.bytes">AAAAYAAAAAwAAAAQAAAAAA</bytes>
 								</object>
 							</object>
 						</object>
-						<object class="NSMatrix" id="924817603">
+						<object class="NSMatrix" id="322432121">
 							<reference key="NSNextResponder" ref="439893737"/>
-							<int key="NSvFlags">256</int>
-							<string key="NSFrame">{{360, 17}, {63, 325}}</string>
+							<int key="NSvFlags">273</int>
+							<string key="NSFrame">{{360, 20}, {63, 325}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<int key="NSNumRows">1</int>
 							<int key="NSNumCols">3</int>
 							<object class="NSMutableArray" key="NSCells">
 								<bool key="EncodedWithXMLCoder">YES</bool>
-								<object class="NSSliderCell" id="725373185">
+								<object class="NSSliderCell" id="220896047">
 									<int key="NSCellFlags">67501824</int>
 									<int key="NSCellFlags2">0</int>
 									<string key="NSContents"/>
-									<reference key="NSControlView" ref="924817603"/>
-									<double key="NSMaxValue">100</double>
-									<double key="NSMinValue">0.0</double>
-									<double key="NSValue">50</double>
+									<reference key="NSControlView" ref="322432121"/>
+									<double key="NSMaxValue">4</double>
+									<double key="NSMinValue">-4</double>
+									<double key="NSValue">1</double>
 									<double key="NSAltIncValue">0.0</double>
 									<int key="NSNumberOfTickMarks">0</int>
 									<int key="NSTickMarkPosition">0</int>
 									<bool key="NSAllowsTickMarkValuesOnly">NO</bool>
 									<bool key="NSVertical">YES</bool>
 								</object>
-								<object class="NSSliderCell" id="803254967">
+								<object class="NSSliderCell" id="1016957172">
 									<int key="NSCellFlags">67501824</int>
 									<int key="NSCellFlags2">0</int>
 									<string key="NSContents"/>
-									<reference key="NSControlView" ref="924817603"/>
-									<double key="NSMaxValue">100</double>
-									<double key="NSMinValue">0.0</double>
-									<double key="NSValue">50</double>
+									<reference key="NSControlView" ref="322432121"/>
+									<int key="NSTag">1</int>
+									<double key="NSMaxValue">4</double>
+									<double key="NSMinValue">-4</double>
+									<double key="NSValue">0.0</double>
 									<double key="NSAltIncValue">0.0</double>
 									<int key="NSNumberOfTickMarks">0</int>
 									<int key="NSTickMarkPosition">0</int>
 									<bool key="NSAllowsTickMarkValuesOnly">NO</bool>
 									<bool key="NSVertical">YES</bool>
 								</object>
-								<object class="NSSliderCell" id="749164826">
+								<object class="NSSliderCell" id="395935976">
 									<int key="NSCellFlags">67501824</int>
 									<int key="NSCellFlags2">0</int>
 									<string key="NSContents"/>
-									<reference key="NSControlView" ref="924817603"/>
-									<double key="NSMaxValue">100</double>
-									<double key="NSMinValue">0.0</double>
-									<double key="NSValue">50</double>
+									<reference key="NSControlView" ref="322432121"/>
+									<int key="NSTag">2</int>
+									<double key="NSMaxValue">5</double>
+									<double key="NSMinValue">0.29999999999999999</double>
+									<double key="NSValue">4</double>
 									<double key="NSAltIncValue">0.0</double>
 									<int key="NSNumberOfTickMarks">0</int>
 									<int key="NSTickMarkPosition">0</int>
@@ -1393,7 +1395,7 @@
 							<string key="NSIntercellSpacing">{0, 0}</string>
 							<int key="NSMatrixFlags">67108864</int>
 							<nil key="NSCellClass"/>
-							<object class="NSSliderCell" key="NSProtoCell" id="35068914">
+							<object class="NSSliderCell" key="NSProtoCell" id="554035566">
 								<int key="NSCellFlags">67501824</int>
 								<int key="NSCellFlags2">0</int>
 								<string key="NSContents"/>
@@ -1406,9 +1408,8 @@
 								<bool key="NSAllowsTickMarkValuesOnly">NO</bool>
 								<bool key="NSVertical">YES</bool>
 							</object>
-							<int key="NSSelectedRow">-1</int>
-							<int key="NSSelectedCol">-1</int>
-							<object class="NSColor" key="NSBackgroundColor" id="1050267170">
+							<reference key="NSSelectedCell" ref="220896047"/>
+							<object class="NSColor" key="NSBackgroundColor" id="425205162">
 								<int key="NSColorSpace">6</int>
 								<string key="NSCatalogName">System</string>
 								<string key="NSColorName">controlColor</string>
@@ -1417,10 +1418,10 @@
 									<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
 								</object>
 							</object>
-							<reference key="NSCellBackgroundColor" ref="1050267170"/>
+							<reference key="NSCellBackgroundColor" ref="425205162"/>
 						</object>
 					</object>
-					<string key="NSFrameSize">{443, 360}</string>
+					<string key="NSFrameSize">{443, 363}</string>
 					<reference key="NSSuperview"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
@@ -2116,6 +2117,14 @@
 					</object>
 					<int key="connectionID">532</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">sliderMatrix</string>
+						<reference key="source" ref="1058661438"/>
+						<reference key="destination" ref="322432121"/>
+					</object>
+					<int key="connectionID">541</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -2673,8 +2682,8 @@
 						<reference key="object" ref="439893737"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="774612827"/>
-							<reference ref="924817603"/>
+							<reference ref="1058661438"/>
+							<reference ref="322432121"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -3166,40 +3175,40 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">533</int>
-						<reference key="object" ref="774612827"/>
+						<reference key="object" ref="1058661438"/>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">536</int>
-						<reference key="object" ref="924817603"/>
+						<reference key="object" ref="322432121"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="35068914"/>
-							<reference ref="725373185"/>
-							<reference ref="803254967"/>
-							<reference ref="749164826"/>
+							<reference ref="554035566"/>
+							<reference ref="220896047"/>
+							<reference ref="1016957172"/>
+							<reference ref="395935976"/>
 						</object>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">538</int>
-						<reference key="object" ref="35068914"/>
-						<reference key="parent" ref="924817603"/>
+						<reference key="object" ref="554035566"/>
+						<reference key="parent" ref="322432121"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">535</int>
-						<reference key="object" ref="725373185"/>
-						<reference key="parent" ref="924817603"/>
+						<reference key="object" ref="220896047"/>
+						<reference key="parent" ref="322432121"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">539</int>
-						<reference key="object" ref="803254967"/>
-						<reference key="parent" ref="924817603"/>
+						<reference key="object" ref="1016957172"/>
+						<reference key="parent" ref="322432121"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">540</int>
-						<reference key="object" ref="749164826"/>
-						<reference key="parent" ref="924817603"/>
+						<reference key="object" ref="395935976"/>
+						<reference key="parent" ref="322432121"/>
 					</object>
 				</object>
 			</object>
@@ -3568,7 +3577,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{525, 802}, {197, 73}}</string>
-					<string>{{380, 836}, {400, 20}}</string>
+					<string>{{380, 986}, {400, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{74, 862}</string>
@@ -3593,9 +3602,9 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{386, 390}, {443, 360}}</string>
+					<string>{{386, 537}, {443, 363}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{386, 390}, {443, 360}}</string>
+					<string>{{386, 537}, {443, 363}}</string>
 					<integer value="1"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<string>{3.40282e+38, 3.40282e+38}</string>
@@ -3738,7 +3747,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">540</int>
+			<int key="maxID">542</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
