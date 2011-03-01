@@ -11,6 +11,8 @@
 
 @interface GlissView : NSOpenGLView {
 	IBOutlet NSMatrix *sliderMatrix;
+	float lightX, theta, radius;
+	int displayList;
 }
 
 -(IBAction)changeParameter:(id)sender;
